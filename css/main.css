@@ -1,0 +1,78 @@
+body {
+  background: #333333;
+  position: fixed;
+ }
+
+h1 {
+  font-size: 48px;
+  font-family: helvetica; 
+  text-align: left;
+  line-height: .75;
+   padding: 10px;
+  text-transform: uppercase;
+  margin:-5px;
+  text-align: left;
+}
+h2{
+  position: relative;
+  font-size: 20px;
+  font-family: helvetica;
+  text-align: left;
+  margin: 20px 30px 20px 20px;
+  }
+
+p {
+  display: block;
+  margin: 20px;
+}
+.contentimage {
+  max-width: 50%;
+  max-height:150px;
+  margin: 10px;
+}
+.content {
+  max-width: 410px;
+}
+.me {
+  max-width: 150px;
+  max-height: 150px;
+  float: right;
+}
+
+h1, h2 {
+  display: inline-block;
+  max-width: 430px;
+    height: auto;
+   display: flex;
+  flex-flow: column wrap;
+}
+
+p  {
+  display: inline-block;
+  max-width: 400px;
+  font-size: 16px;
+  font-family: helvetica;
+}
+  
+  section {
+    background: #808284;
+    padding: -10px;
+    margin-left: 450px;
+  }
+  
+  img { 
+   display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0px;
+    border: 3px white;
+    padding: 10px;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+        display:flex;
+      flex-flow: column;
+        background-color: darkgrey;
+    }
